@@ -16800,5 +16800,20 @@ header #navLogo #placeholder {
     display: none;
   }
 }
+#shopa h2, #shopa .h2 {
+  font-size: 55px;
+}
+#shopa img {
+  width: 75%;
+}
+
+@media screen and (max-width: 965px) {
+  #shopa h2, #shopa .h2 {
+    font-size: 60px;
+  }
+  #shopa img {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
