@@ -16815,5 +16815,325 @@ header #navLogo #placeholder {
     width: 100%;
   }
 }
+#services .containerImg {
+  background-position: center;
+  height: 250px;
+  width: 100%;
+  font-family: "Poppins", serif;
+}
+#services .containerImg h2, #services .containerImg .h2 {
+  font-size: 40px;
+}
+#services .containerImg .underlineService {
+  width: 70%;
+  margin: 0 auto;
+  height: 3px;
+  background-color: white;
+}
+#services .containerImg1 {
+  background-image: url("../../public/img/services/service-1.jpg");
+}
+#services .containerImg2 {
+  background-image: url("../../public/img/services/service-2.jpg");
+}
+#services .containerImg3 {
+  background-image: url("../../public/img/services/slider-3.jpg");
+}
+
+@media screen and (max-width: 600px) {
+  #services .containerImg {
+    margin-top: 20px;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    font-family: "Poppins", serif;
+  }
+}
+#discover {
+  background-image: url("../../public/img/cta-bg.jpg");
+  background-attachment: fixed;
+  padding: 300px 0;
+  margin-bottom: 70px;
+}
+#discover h2, #discover .h2 {
+  font-size: 60px;
+}
+#discover button {
+  font-size: 20px;
+}
+
+#products {
+  margin-top: 100px;
+}
+#products .marginBottom {
+  margin-bottom: 120px;
+}
+#products span {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#products .beforeImg {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#products .beforeImg img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 97%;
+  transition: 1s;
+  display: block;
+}
+#products .beforeImg img:hover {
+  transform: scale(1.1);
+}
+#products .beforeImg:hover {
+  width: 100%;
+}
+#products .beforeImg::before {
+  content: "View details";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -70px;
+  width: 50%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  transition: 1s;
+  z-index: 1;
+}
+#products .beforeImg::after {
+  content: "Add to cart";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  width: 50%;
+  height: 70px;
+  background-color: #D80316;
+  color: white;
+  transition: 1s;
+  z-index: 1;
+}
+#products .beforeImg:hover::after {
+  bottom: 0;
+}
+#products .beforeImg:hover::before {
+  bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  #products span {
+    margin-bottom: 20px;
+  }
+}
+#hotFashion .myCarousel {
+  overflow-x: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  height: 500px;
+}
+#hotFashion .myCarousel .divIndicators {
+  bottom: 20px;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hotFashion .myCarousel .indic {
+  height: 15px;
+  width: 15px;
+  border: solid 1px black;
+  border-radius: 50%;
+}
+#hotFashion .myCarousel .myIndicator {
+  cursor: pointer;
+}
+#hotFashion .myCarousel .myIndicator1 {
+  cursor: pointer;
+}
+#hotFashion .myCarousel .myIndicator2 {
+  cursor: pointer;
+}
+#hotFashion .myCarousel .myIndicator3 {
+  cursor: pointer;
+}
+#hotFashion .myCarousel .myIndicator4 {
+  cursor: pointer;
+  display: none;
+}
+#hotFashion .myCarousel .myIndicator5 {
+  cursor: pointer;
+  display: none;
+}
+#hotFashion .myCarousel .myIndicator6 {
+  cursor: pointer;
+  display: none;
+}
+#hotFashion .myCarousel .img {
+  left: 3%;
+  top: 20%;
+  font-weight: 700;
+  width: 21%;
+}
+#hotFashion .myCarousel .img0 {
+  position: absolute;
+  height: 250px;
+  transition: 1s;
+}
+#hotFashion .myCarousel .img2 {
+  position: absolute;
+  transform: translateX(120%);
+  height: 250px;
+  transition: 1s;
+}
+#hotFashion .myCarousel .img3 {
+  position: absolute;
+  transform: translateX(240%);
+  height: 250px;
+  transition: 1s;
+}
+#hotFashion .myCarousel .img4 {
+  position: absolute;
+  transform: translateX(360%);
+  height: 250px;
+  transition: 1s;
+}
+#hotFashion .myCarousel .img5 {
+  position: absolute;
+  transform: translateX(500%);
+  height: 250px;
+  transition: 1s;
+}
+#hotFashion .myCarousel .img6 {
+  position: absolute;
+  transform: translateX(620%);
+  height: 250px;
+  transition: 1s;
+}
+#hotFashion .myCarousel .img7 {
+  position: absolute;
+  transform: translateX(750%);
+  height: 250px;
+  transition: 1s;
+}
+
+@media screen and (max-width: 992px) {
+  #hotFashion .myCarousel {
+    overflow-x: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #hotFashion .myCarousel {
+    overflow-x: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+  }
+  #hotFashion .myCarousel .divIndicators {
+    bottom: 20px;
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #hotFashion .myCarousel .indic {
+    height: 15px;
+    width: 15px;
+    border: solid 1px black;
+    border-radius: 50%;
+  }
+  #hotFashion .myCarousel .myIndicator {
+    cursor: pointer;
+  }
+  #hotFashion .myCarousel .myIndicator1 {
+    cursor: pointer;
+  }
+  #hotFashion .myCarousel .myIndicator2 {
+    cursor: pointer;
+  }
+  #hotFashion .myCarousel .myIndicator3 {
+    cursor: pointer;
+  }
+  #hotFashion .myCarousel .myIndicator4 {
+    cursor: pointer;
+    display: unset;
+  }
+  #hotFashion .myCarousel .myIndicator5 {
+    cursor: pointer;
+    display: unset;
+  }
+  #hotFashion .myCarousel .myIndicator6 {
+    cursor: pointer;
+    display: unset;
+  }
+  #hotFashion .myCarousel .img {
+    left: 0%;
+    top: 10%;
+    font-weight: 700;
+    width: 100%;
+  }
+  #hotFashion .myCarousel .img0 {
+    position: absolute;
+    height: 250px;
+    transition: 1s;
+  }
+  #hotFashion .myCarousel .img2 {
+    position: absolute;
+    transform: translateX(120%);
+    height: 250px;
+    transition: 1s;
+  }
+  #hotFashion .myCarousel .img3 {
+    position: absolute;
+    transform: translateX(240%);
+    height: 250px;
+    transition: 1s;
+  }
+  #hotFashion .myCarousel .img4 {
+    position: absolute;
+    transform: translateX(360%);
+    height: 250px;
+    transition: 1s;
+  }
+  #hotFashion .myCarousel .img5 {
+    position: absolute;
+    transform: translateX(500%);
+    height: 250px;
+    transition: 1s;
+  }
+  #hotFashion .myCarousel .img6 {
+    position: absolute;
+    transform: translateX(620%);
+    height: 250px;
+    transition: 1s;
+  }
+  #hotFashion .myCarousel .img7 {
+    position: absolute;
+    transform: translateX(750%);
+    height: 250px;
+    transition: 1s;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
