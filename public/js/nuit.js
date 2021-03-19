@@ -1,11 +1,10 @@
-let darkmode1 = document.querySelector('#darkMode1');
-let darkmode2 = document.querySelector('#darkMode2');
+let modenuit = document.querySelector('#darkMode1');
+let tier2 = document.querySelector('#darkMode2');
 
-darkmode2.addEventListener('click', () => {
+tier2.addEventListener('click', () => {
     let whiteMode = document.querySelectorAll('.bg-white');
     let textWhite = document.querySelectorAll('.text-dark');
-    console.log(whiteMode);
-    
+
     whiteMode.forEach(element => {
         element.classList.remove('bg-white');
         element.classList.add('bg-dark');
@@ -17,11 +16,9 @@ darkmode2.addEventListener('click', () => {
     });
 });
 
-darkmode1.addEventListener('click', () => {
+modenuit.addEventListener('click', () => {
     let darkMode = document.querySelectorAll('.bg-dark');
     let textDark = document.querySelectorAll('.text-white');
-    console.log(darkMode);
-
     darkMode.forEach(element => {
         element.classList.remove('bg-dark');
         element.classList.add('bg-white');
@@ -33,4 +30,4 @@ darkmode1.addEventListener('click', () => {
     });
 });
 
-export {darkmode1, darkmode2};
+export {modenuit, tier2};

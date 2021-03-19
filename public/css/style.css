@@ -16887,7 +16887,7 @@ header #navLogo #placeholder {
   display: block;
 }
 #products .beforeImg img:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 #products .beforeImg:hover {
   width: 100%;
@@ -16907,7 +16907,7 @@ header #navLogo #placeholder {
   z-index: 1;
 }
 #products .beforeImg::after {
-  content: "Add to cart";
+  content: "Add to panier";
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17133,6 +17133,35 @@ header #navLogo #placeholder {
     transform: translateX(750%);
     height: 250px;
     transition: 1s;
+  }
+}
+#trus .containerTrust {
+  width: 98%;
+}
+#trus .containerTrust i {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+footer .containerFooter {
+  width: 55%;
+  margin: 0 auto;
+}
+footer span {
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 1100px) {
+  footer .containerFooter {
+    width: 90%;
+    margin: 0 auto;
+  }
+  footer .containerFooter .nowrap {
+    flex-wrap: nowrap;
+  }
+  footer .containerFooter .mtTag {
+    margin-top: 25px;
   }
 }
 
